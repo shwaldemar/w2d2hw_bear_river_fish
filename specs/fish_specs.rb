@@ -19,10 +19,6 @@ class FishTest < MiniTest::Test
     assert_equal(Fish, actual)
   end
 
-  # def test_river_name
-  #   assert_equal("River of Leith", @river.river_name)
-  # end
-
   def test_fish_name
     assert_equal("strange_fish", @fish.fish_name)
   end
